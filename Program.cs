@@ -43,3 +43,29 @@
 
 //Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
+// Console.WriteLine("Введите число строк");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число столбцов");
+// int colums = Convert.ToInt32(Console.ReadLine());
+// int [,] matrix = new int[rows, colums];
+// int average = 0;
+// for (int i = 0; i < matrix.GetLength(0); i++)
+// {
+//     Console.Write("[ ");
+//     for (int j = 0; j < matrix.GetLength(1); j++)
+//     {
+//         matrix[i,j] = new Random().Next(100);
+//         Console.Write($"{matrix[i,j]} ");
+//     }
+//     Console.WriteLine("]");
+// }
+// for (int l = 0; l < matrix.GetLength(1); l++)
+// {
+//     for (int k = 0; k < matrix.GetLength(0) ; k++)
+//     {
+//         average += matrix[k,l];
+//     }
+//     average /= rows;
+//     System.Console.WriteLine($"Среднее арифметическое в столбце {l} = {average}");
+//     average = 0;
+// }
