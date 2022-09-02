@@ -5,13 +5,16 @@
 // Console.WriteLine("Введите число столбцов");
 // int colums = Convert.ToInt32(Console.ReadLine());
 // double [,] matrix = new double[rows, colums];
+// int sign = 0;
 // for (int i = 0; i < matrix.GetLength(0); i++)
 // {
 //     Console.Write("[ ");
 //     for (int j = 0; j < matrix.GetLength(1); j++)
 //     {
 //         matrix[i,j] = new Random().NextDouble();
-//         matrix[i,j] *= 10;
+//         sign = new Random().Next(0,2);
+//         if (sign == 1) matrix[i,j] *= -10;
+//         else matrix[i,j] *= 10;
 //         matrix[i,j] = Math.Round(matrix[i,j], 1);
 //         Console.Write($"{matrix[i,j]} ");
 //     }
